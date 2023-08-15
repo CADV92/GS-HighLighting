@@ -2,7 +2,7 @@
     "name": "gs",
     "displayName": "GSL-GrADS",
     "description": "GrADS Programming Language",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "engines": {
         "vscode": "^1.60.0"
     },
