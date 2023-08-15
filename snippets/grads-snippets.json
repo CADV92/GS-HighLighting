@@ -35,5 +35,36 @@
 			";** *******************************************************************",
 			"$0"
 		]
+	},
+	"Conditional Block": {
+		"prefix": "ifblock",
+		"body": [
+			"if (${1:CONDITION})",
+			"\t${2:;** Instructions}",
+			"endif",
+			"$0"
+		],
+		"description": "Create a conditional block"
+	},
+	"While Loop": {
+		"prefix": "whileloop",
+		"body": [
+			"while (${1:CONDITION})",
+			"\t${2:;** Instructions}",
+			"endwhile",
+			"$0"
+		],
+		"description": "Create a while loop"
+	},
+	"Function": {
+		"prefix": "function",
+		"body": [
+			"function ${1:functionName}(${2:arguments})",
+			"\t${3:;** Instructions}",
+			"\treturn",
+			"$0"
+		],
+		"description": "Create a function"
 	}
+	
 }
