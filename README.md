@@ -10,7 +10,7 @@ This is a syntax highlighting extension for the GrADS (Grid Analysis and Display
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](https://github.com/CADV92/GS-HighLighting/blob/main/screenshots/screenshot1.png?raw=true)
 <br>*GrADS Scripting Language Syntax Highlighting*
 
 ## Usage
