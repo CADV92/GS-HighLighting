@@ -22,11 +22,6 @@ This is a syntax highlighting extension for the GrADS (Grid Analysis and Display
 
 If you find any issues or wish to contribute, feel free to do so. Contributions are welcome!
 
-## License
-
-This extension is licensed under the [MIT License](LICENSE).
-
----
 
 **Special thanks to the GrADS community for their support and collaboration.**
 

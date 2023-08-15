@@ -1,11 +1,12 @@
 {
     "name": "gs",
-    "displayName": "GS",
+    "displayName": "GSL-GrADS",
     "description": "GrADS Programming Language",
-    "version": "0.0.1",
+    "version": "1.0.3",
     "engines": {
         "vscode": "^1.60.0"
     },
+	"publisher": "cadv",
     "categories": [
         "Programming Languages"
     ],
@@ -20,6 +21,12 @@
             "language": "gs",
             "scopeName": "source.gs",
             "path": "./syntaxes/gs.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "gs",
+                "path": "./snippets/grads-snippets.json"
+            }
+        ]
     }
 }
