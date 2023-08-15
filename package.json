@@ -1,0 +1,25 @@
+{
+    "name": "gs",
+    "displayName": "GS",
+    "description": "GrADS Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gs",
+            "aliases": ["GrADS", "gs"],
+            "extensions": [".gs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gs",
+            "scopeName": "source.gs",
+            "path": "./syntaxes/gs.tmLanguage.json"
+        }]
+    }
+}
